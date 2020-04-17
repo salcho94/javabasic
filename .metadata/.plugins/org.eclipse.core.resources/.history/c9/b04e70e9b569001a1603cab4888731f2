@@ -1,0 +1,15 @@
+package c_control;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+		int k=0;
+		int i=0;
+		while(k<=10) {
+			i+=k;
+			k++;
+	}
+		System.out.println(i);
+	}
+
+}

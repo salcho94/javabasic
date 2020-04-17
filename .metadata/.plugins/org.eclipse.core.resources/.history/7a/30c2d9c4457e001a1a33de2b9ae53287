@@ -1,0 +1,17 @@
+package javaTest;
+
+public class InfoModelImpl {
+	
+	public int sum() {
+		int sum;
+		for(int i=0;i<100;i++) {
+			sum +=i;
+			System.out.println(sum);
+			return sum;
+		}
+	}
+	
+	public static void main(String[]args) {
+	 int sum =sum();
+	}
+}

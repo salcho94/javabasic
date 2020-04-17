@@ -1,0 +1,17 @@
+package javaTest;
+
+public class Sachi {
+
+	public static void main(String[] args) {
+		int d =472, e = 385;
+		int a=5,b=8,c=3;
+		int first = a*d;
+		int second = b*d;
+		int three = c*d;
+		System.out.println(first);
+		System.out.println(second);
+		System.out.println(three);
+		System.out.println(first+second+three);
+	}
+
+}

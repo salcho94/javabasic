@@ -1,0 +1,10 @@
+package Alone;
+
+public class shop {
+		long ordernumber;
+		String ID;
+		String Day;
+		String name;
+		String code;
+		String address;
+}

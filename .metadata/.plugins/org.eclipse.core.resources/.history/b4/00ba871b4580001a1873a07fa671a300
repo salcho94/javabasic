@@ -1,0 +1,37 @@
+package h_jtable;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTable;
+
+public class JtableTest extends JFrame{
+	JTable table;// 이객체가 널값이다 객체생성이 필수이다 변수만 선언해둔 상태이다 .
+	JButton btn;
+	
+	public JtableTest() {
+		//객체생성 
+		table = new JTable();
+		btn = new JButton("cheak");
+		
+		
+		
+		//화면을 구성 
+		add(table,BorderLayout.CENTER);
+		add(btn,BorderLayout.NORTH);
+		
+		//화면에 출력하는 부분 
+		setBounds(100,100,500,400);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	
+	
+	public static void main(String[]arge) {
+		JtableTest jt = new JtableTest();
+		
+		
+		
+	}
+}

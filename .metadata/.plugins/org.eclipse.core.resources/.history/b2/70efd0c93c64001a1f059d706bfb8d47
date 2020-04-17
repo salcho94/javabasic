@@ -1,0 +1,15 @@
+class Test {
+
+public static void main ( String  [] args ) {
+
+  byte b = 36;
+
+  int i = ( int ) b;
+
+  System.out.println( “b = “ + b );
+
+  System.out.println( “i = “ + i );
+
+ }
+
+}

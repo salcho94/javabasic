@@ -1,0 +1,10 @@
+package Alone;
+
+public class shop {
+		long ordernumber = 201803120001l
+		String ID = "abc123";
+		String Day = "2018년 3월 12일"; 
+		String name = "홍길순";
+		String code = "PD0345-12";
+		String address = "서울 영등포구 여의도동 20번지";
+}

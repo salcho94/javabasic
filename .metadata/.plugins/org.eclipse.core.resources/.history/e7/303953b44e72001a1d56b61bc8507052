@@ -1,0 +1,80 @@
+package info;
+
+import javax.swing.*;
+
+import java.awt.*;
+
+public class C_info extends JFrame {
+	  //변수선언
+	JTextArea ta;
+	JButton bAdd,bShow,bSearch,bDelete,bCancel,bExit;
+	JTextField tfName,tfId,tfTel,tfsex,tfAge,tfHome;
+	
+	C_info(){
+		//객체생성
+	ta = new JTextArea();
+	bAdd = new JButton("add",new ImageIcon("src/c_info/imgs/1 (1).jpg"));
+	bShow = new JButton("show");
+	bSearch = new JButton("search");
+	bDelete = new JButton("Delete");
+	bCancel = new JButton("cancle");
+	bExit = new JButton("exit");
+	
+	tfName = new JTextField(13);
+	tfId = new JTextField(13);
+	tfTel = new JTextField(13);
+	tfsex = new JTextField(13);
+	tfAge = new JTextField(13);
+	tfHome = new JTextField(13);
+	
+	 
+	
+	}
+	 void display() {
+		 setLayout(new BorderLayout());
+		 
+		 JPanel p = new JPanel(new GridLayout(6,2));
+		p.add(new JLabel("Name"));
+		p.add(tfName);
+		
+		p.add(new JLabel("ID"));
+		p.add(tfId);
+		p.add(new JLabel("TEL"));
+		p.add(tfTel);
+		p.add(new JLabel("SEX"));
+		p.add(tfsex);
+		p.add(new JLabel("AGE"));
+		p.add(tfAge);
+		p.add(new JLabel("Home"));
+		p.add(tfHome);
+		add(p,BorderLayout.WEST);
+		JPanel p1 =new JPanel(new GridLayout(1,6));
+		p1.add(bAdd);
+		p1.add(bShow);
+		p1.add(bSearch);
+		p1.add(bDelete);
+		p1.add(bCancel);
+		p1.add(bExit);
+		add(p1,BorderLayout.SOUTH);
+		
+		add(ta, BorderLayout.CENTER);
+		 
+		 
+		 //화면구성 출력
+	 setLocation(200,100);
+	 setSize(700,560);
+	 setVisible(true);
+	 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	 
+	 
+	 }
+	  
+	  
+	  
+	public static void main(String[] args) {
+		C_info c = new C_info();
+		c.display();
+
+	}
+
+}

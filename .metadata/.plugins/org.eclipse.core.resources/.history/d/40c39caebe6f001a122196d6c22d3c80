@@ -1,0 +1,24 @@
+package Alone;
+
+public class ShopTest {
+
+	public static void main(String[] args) {
+		 	shop naver = new shop();
+		 	naver.ordernumber ;
+		 	naver.ID ;
+		 	naver.Day ;
+		 	naver.name;
+		 	naver.code ;
+		 	naver.address; 
+		 	
+		 	System.out.println(naver.ordernumber);
+		 	System.out.println(naver.ID);
+		 	System.out.println(naver.Day);
+		 	System.out.println(naver.name);
+		 	System.out.println(naver.code);
+		 	System.out.println(naver.address);
+		 	
+		 	
+	}
+
+}

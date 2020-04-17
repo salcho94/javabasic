@@ -1,0 +1,20 @@
+package jdbc.gui;
+
+import java.sql.SQLException;
+
+public class InfoModelImpl implements Infomodel {
+	public InfoModelImpl() throws Exception{// 예외처리
+		//1드라이버 로딩 
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+	}
+	public void insert() throws SQLException {
+
+	   }
+
+	   public void selectAll() throws SQLException {
+
+	   }
+
+	   public void delete() throws SQLException {
+} 
+}

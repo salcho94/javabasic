@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Atm {
+	/*아메리카노 1.1500원
+	 * 카페라떼 2.2500원
+	 * 스무디류 3.3000원*/
+
+	public static void main(String[] args) {
+				int money = 3000;
+				
+		
+			Scanner sc = new Scanner(System.in);	
+			System.out.println("상품을 선택해 주세요");
+			int pay = sc.nextInt();
+			if(pay == 1) {
+				if(money>=1500) {
+				System.out.println("아메리카노 구입");
+				System.out.println("남은돈은:"+(money-1500));
+				}
+			}else if(pay == 2) {
+				if(money>=2500) {
+				System.out.println("카페라떼 구입");
+				System.out.println("남은돈은:"+(money-2500));
+				}
+			}else if(pay == 3) {
+				if(money>=3000) {
+				System.out.println("스무디류 구입");
+				System.out.println("남은돈은"+(money-3000));
+				}
+			}
+			
+		
+		
+	}
+
+}

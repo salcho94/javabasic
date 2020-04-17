@@ -1,0 +1,24 @@
+package Alone;
+
+public class ShopTest {
+
+	public static void main(String[] args) {
+		 	Shop naver = new Shop();
+		 	naver.ordernumber = 201803120001l;
+		 	naver.ID = "abc123";
+		 	naver.Day = "2018년 3월 12일";
+		 	naver.name = "홍길순";
+		 	naver.code = "PD0345-12";
+		 	naver.address = "서울 영등포구 여의도동 20번지";
+		 	
+		 	System.out.println(naver.ordernumber);
+		 	System.out.println(naver.ID);
+		 	System.out.println(naver.Day);
+		 	System.out.println(naver.name);
+		 	System.out.println(naver.code);
+		 	System.out.println(naver.address);
+		 	
+		 	
+	}
+
+}

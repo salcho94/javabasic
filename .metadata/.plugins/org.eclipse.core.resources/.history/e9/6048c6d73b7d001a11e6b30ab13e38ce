@@ -1,0 +1,18 @@
+package basic;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//1 oracle드라이버를 메모리에 로딩 
+		// new oracle.jdbc.driver.OracleDriver(); == Class.forName(""); 동일한 의미 
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			System.out.println("susses");
+		} catch (Exception e) {
+			System.out.println("fail");
+			
+		}
+
+	}
+
+}

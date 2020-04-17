@@ -1,0 +1,14 @@
+package c_control;
+
+public class 연습 {
+
+	public static void main(String[] args) {
+	for(int a=1;;a++) {
+		        if(a>10);
+		System.out.println(a);// 중복되면 초기화식으로 생략가능함
+	}
+
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package h_jtable;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTable;
+
+public class JtableTest extends JFrame{
+	JTable table;
+	JButton btn;
+	
+	public JtableTest() {
+		//화면을 구성 
+		add(table,BorderLayout.CENTER);
+		add(btn,BorderLayout.NORTH);
+		
+		//화면에 출력하는 부분 
+		setBounds(100,100,500,400);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	
+	
+	public static void main(String[]arge) {
+		JtableTest jt = new JtableTest();
+		
+		
+		
+	}
+}
